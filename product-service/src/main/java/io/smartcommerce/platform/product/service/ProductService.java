@@ -14,14 +14,14 @@ public class ProductService {
         Product product1 =  Product.builder().productId(100)
                 .productCode("Prod1")
                 .productName("TV")
-                .productPrice(Double.valueOf("10000"))
+                .productPrice(10000)
                 .createdDate(LocalDate.now())
                 .updatedDate(null)
                 .build();
         Product product2 =  Product.builder().productId(101)
                 .productCode("Prod2")
                 .productName("Washing Machine")
-                .productPrice(Double.valueOf("20000"))
+                .productPrice(20000)
                 .createdDate(LocalDate.now())
                 .updatedDate(null)
                 .build();
