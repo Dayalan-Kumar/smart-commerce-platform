@@ -1,6 +1,7 @@
-package io.smartcommerce.platform.product.service;
+package io.smartcommerce.platform.product.service.unit;
 
 import io.smartcommerce.platform.product.model.Product;
+import io.smartcommerce.platform.product.service.ProductService;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
